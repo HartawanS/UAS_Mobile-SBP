@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wawan.uassbpmobile.RekomendasiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTextHasil"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:paddingTop="15dp"
+        android:text="hasil "/>
+
+    <TextSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTextSwitcherHasil"
+        android:layout_below="@+id/idTextHasil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"></TextSwitcher>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PREVIOUS"
+            android:id="@+id/idBtnPrevious"
+            android:onClick="prevClick"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NEXT"
+            android:id="@+id/idBtnNext"
+            android:onClick="nextClick"/>
+    </LinearLayout>
+
+    <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" -->
+        <!--app:itemTextColor="#FFFFFF"-->
+        <!--app:menu="@menu/bottom_navigation_rekomen"/>-->
+
+</RelativeLayout>

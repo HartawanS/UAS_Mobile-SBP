@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wawan.uassbpmobile.KreteriaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:gravity="left"
+        android:weightSum="21"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Harga :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/budgetCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idBudget"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/budgetCheck"></Spinner>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tanggal Rilis :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateReleaseCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idDateRelease"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/dateReleaseCheck"></Spinner>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dimensi :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dimensionCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idDimension"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/dimensionCheck"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat:"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/weightCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idWeight"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/weightCheck"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen Dots :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/screenDotsCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idScreenDots"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/screenDotsCheck"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max resolutuin :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <!--<TextView-->
+                <!--android:id="@+id/maxResolition"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Max Resolution:"-->
+                <!--android:textSize="20dp"-->
+                <!--android:paddingLeft="20dp"-->
+                <!--android:layout_gravity="left"/>-->
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/maxResolutionCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idMaxResolution"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/maxResolutionCheck"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Effective Pixel :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/effectivePixelCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idEffectivePixel"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/effectivePixelCheck"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo Detector :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/photoDetectorsCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idPhotoDetectors"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/photoDetectorsCheck"></Spinner>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor Size :"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sensorSizeCheck"
+                android:layout_centerVertical="true"/>
+
+            <Spinner
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/idSensorSize"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/sensorSizeCheck"></Spinner>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KEMBALI"
+                android:layout_weight="1"
+                android:onClick="onButtonKembali"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LANJUTKAN"
+                android:onClick="onButtonLanjutkan"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

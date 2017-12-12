@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "772800772296",
+    "firebase_url": "https://camerafuzzy.firebaseio.com",
+    "project_id": "camerafuzzy",
+    "storage_bucket": "camerafuzzy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772800772296:android:e3dea67370d6ef57",
+        "android_client_info": {
+          "package_name": "com.example.wawan.uassbpmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772800772296-9hrmrr2gqdbbi112eofdb1a5akvatgol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wawan.uassbpmobile",
+            "certificate_hash": "ec151639b39bfc5f39a17979af70dde697e7bc28"
+          }
+        },
+        {
+          "client_id": "772800772296-q13mbgeknn90jtj1oj7dl1t4s5oglegd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wawan.uassbpmobile",
+            "certificate_hash": "adc1c90c9368136ec50b8f987e5be73be44ba2fb"
+          }
+        },
+        {
+          "client_id": "772800772296-o603l99dcgvvrqakuukq21a87oeudcqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wawan.uassbpmobile",
+            "certificate_hash": "9da59ea678126e96b6ff7220a25885f4cc7b922b"
+          }
+        },
+        {
+          "client_id": "772800772296-i1ii6070siouuflslb2hfi98vbvlot5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv72sfFeA1CQY-zsg56l8iPjdHLAFBxIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772800772296-i1ii6070siouuflslb2hfi98vbvlot5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
